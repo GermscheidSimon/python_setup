@@ -40,3 +40,11 @@ def reverse(string):
         
 
 print(reverse(teststring))
+
+class literallyAPotato():
+    name = str('potato')
+
+    
+simon = literallyAPotato()
+
+print('simon is a', simon.name)
